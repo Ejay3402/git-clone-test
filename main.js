@@ -1,5 +1,10 @@
-const body = document.querySelector(`body`);
+const body = document.querySelector(`.body`);
 
 body.addEventListener("click", () => {
-    body.background = 'red';
+    body.classList.add('red');
+    console.log('red');
+    
 });
+
+console.log('red');
+
